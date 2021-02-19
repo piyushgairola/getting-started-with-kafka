@@ -7,7 +7,7 @@ from kafka import KafkaConsumer
 # Set the consumer in a Flask App
 app = Flask(__name__)
 
-@app.route('/video', methods=['GET'])
+@app.route('/image', methods=['GET'])
 def video():
     topic = "sample"
 
